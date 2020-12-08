@@ -4,7 +4,7 @@ import useApplicationData from './hooks/useApplicationData';
 import './App.css';
 import { SET_USERS } from './reducers/dataReducer';
 
-
+import { authenticateUser, fetchUser, generateId } from "./helpers";
 
 
 function App() {
